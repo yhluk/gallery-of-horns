@@ -8,6 +8,7 @@ body {
   
   text-align: center;
   background-color: olive;
+  
 }
 
 code {
@@ -15,6 +16,8 @@ code {
     monospace;
 }
 img{
-  height: 200px;
+  object-fit: cover;
+  width: 300px;
+  height: 250px;
 
 }
