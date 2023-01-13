@@ -1,4 +1,24 @@
-# Getting Started with Create React App
+Feature #1: Display Images
+Estimate of time needed to complete: 1,5hr
+Start time: 7
+Finish time: 10
+Actual time needed to complete: 3hr
+
+Feature #2: Allow Users to Favorite Individual Beasts
+EEstimate of time needed to complete: 1,5hr
+Start time: 7
+Finish time: 10
+Actual time needed to complete: 3hr
+
+Feature 3: Bootstrap
+EEstimate of time needed to complete: 1,5hr
+Start time: 7
+Finish time: 10
+Actual time needed to complete: 3hr
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +87,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
