@@ -1,21 +1,28 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
 import HornedBeast from "./HornedBeast";
-import data from "./data.json"
 
 
-class Main extends React.Component{
-  render(){
-    return(
+
+class Main extends React.Component {
+  render() {
+    return (
       <>
-      <main>
-        {data.map((hornedBeast) => <HornedBeast 
-          title = {hornedBeast.title}
-          image_url = {hornedBeast.image_url}
-          description = {hornedBeast.description}
-          key = {hornedBeast._id}
-          />
-        )}
-      </main>
+        <main>
+          <Container>
+            <Row xs={1} sm={2} md={3}>
+              {this.props.data.map((hornedBeast) =>
+                <HornedBeast
+                  title={hornedBeast.title}
+                  description={hornedBeast.description}
+                  image_url={hornedBeast.image_url}
+                  key={hornedBeast._id}
+                  handleShowModal={this.props.handleShowModal}
+                />
+              )}
+            </Row>
+          </Container>
+        </main>
       </>
     )
   }
