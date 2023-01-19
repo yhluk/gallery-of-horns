@@ -95,7 +95,7 @@ filterBeasts = (e) =>{              //Filtering page
           handleShowModal={this.handleShowModal} />
 
         <SelectedBeast
-          data={this.state.beastData}
+          data={this.state.updatedHornData}
           showModal={this.state.showModal}
           handleCloseModal={this.handleCloseModal}
           title={this.state.title}
