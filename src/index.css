@@ -25,14 +25,15 @@ img{
 main{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: space-evenly;
+  justify-content:center;
+
   text-align: center;
-  background-color: olive;
-}
+  background-color: olive; }
 #card{
   color: "orange"; 
   background-color: olive;
-  margin:5px 10px;
+  margin:10px 21px;
   border: 2px dashed paleturquoise
 }
 
@@ -41,13 +42,14 @@ h1 {
   font-weight: 800;
   font-family: 'Niconne', cursive;
   color: #17da09;
-  text-shadow: 2px 2px 0px  #2cf804,
-               4px 4px 0px #339907,
-               6px 6px 0px #116e17,
-               8px 8px 0px #5056ff,
-               10px 10px 0px #2197a9;
-               text-align: center;
-} 
+  text-shadow: 
+    2px 2px 0px #2cf804,
+    4px 4px 0px #339907,
+    6px 6px 0px #116e17,
+    8px 8px 0px #5056ff,
+    10px 10px 0px #2197a9;
+  text-align: center;
+}
 
 *{
   background-color: olive;
@@ -61,6 +63,10 @@ div .modal-content{
 }
 
 .modal-body img{
-  max-width:100%; 
-  height:auto
+  max-width: 100%; 
+  height: auto;
+}
+
+.container{
+align-self: center;
 }
